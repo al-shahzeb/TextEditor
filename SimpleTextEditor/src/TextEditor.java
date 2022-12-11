@@ -45,9 +45,8 @@ class FrameClass implements ActionListener {
 
         jTextArea = new JTextArea();
         jTextArea.setBounds(0,0,500,500);
-        jTextArea.setBorder(border);
-
-        Rectangle rectangle = new Rectangle();
+        //jTextArea.setBorder(border);
+        
         jFrame = new JFrame("Text Editor");
         jFrame.setBounds(0,0,500,500);
         jFrame.setLayout(null);
